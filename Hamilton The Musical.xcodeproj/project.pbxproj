@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF3DC1872A80CD31000D0E66 /* My Shot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF3DC17E2A80CD31000D0E66 /* My Shot.mp3 */; };
+		AF3DC1882A80CD31000D0E66 /* The Schuyler Sisters.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF3DC17F2A80CD31000D0E66 /* The Schuyler Sisters.mp3 */; };
+		AF3DC1892A80CD31000D0E66 /* Non-Stop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF3DC1802A80CD31000D0E66 /* Non-Stop.mp3 */; };
+		AF3DC18A2A80CD31000D0E66 /* Alexander Hamilton.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF3DC1812A80CD31000D0E66 /* Alexander Hamilton.mp3 */; };
+		AF3DC18B2A80CD31000D0E66 /* Who Lives, Who Dies, Who Tells Your Story.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF3DC1822A80CD31000D0E66 /* Who Lives, Who Dies, Who Tells Your Story.mp3 */; };
+		AF3DC18C2A80CD31000D0E66 /* Dear Theodosia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF3DC1832A80CD31000D0E66 /* Dear Theodosia.mp3 */; };
+		AF3DC18D2A80CD31000D0E66 /* Satisfied.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF3DC1842A80CD31000D0E66 /* Satisfied.mp3 */; };
+		AF3DC18E2A80CD31000D0E66 /* The Room Where It Happens.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF3DC1852A80CD31000D0E66 /* The Room Where It Happens.mp3 */; };
+		AF3DC18F2A80CD31000D0E66 /* You'll Be Back.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF3DC1862A80CD31000D0E66 /* You'll Be Back.mp3 */; };
+		AF3DC1912A80CE80000D0E66 /* Wait for It.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF3DC1902A80CE80000D0E66 /* Wait for It.mp3 */; };
+		AF828CEF2A7FB97D000F66BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF828CEE2A7FB97D000F66BD /* AppDelegate.swift */; };
+		AF828CF12A7FB97D000F66BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF828CF02A7FB97D000F66BD /* SceneDelegate.swift */; };
+		AF828CF62A7FB97D000F66BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF828CF42A7FB97D000F66BD /* Main.storyboard */; };
+		AF828CF82A7FB97E000F66BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF828CF72A7FB97E000F66BD /* Assets.xcassets */; };
+		AF828CFB2A7FB97E000F66BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF828CF92A7FB97E000F66BD /* LaunchScreen.storyboard */; };
+		AF828D032A7FB9A3000F66BD /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF828D022A7FB9A3000F66BD /* HomeTableViewController.swift */; };
+		AF828D052A7FBA5A000F66BD /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF828D042A7FBA5A000F66BD /* SongTableViewCell.swift */; };
+		AF828D092A7FC109000F66BD /* LyricsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF828D082A7FC109000F66BD /* LyricsViewController.swift */; };
+		AF828D0B2A7FC119000F66BD /* MVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF828D0A2A7FC119000F66BD /* MVViewController.swift */; };
+		AF828D0D2A7FC146000F66BD /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF828D0C2A7FC146000F66BD /* Song.swift */; };
+		AFFB25EF2A80C59B00840779 /* CodableCSV in Frameworks */ = {isa = PBXBuildFile; productRef = AFFB25EE2A80C59B00840779 /* CodableCSV */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF3DC17E2A80CD31000D0E66 /* My Shot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "My Shot.mp3"; sourceTree = "<group>"; };
+		AF3DC17F2A80CD31000D0E66 /* The Schuyler Sisters.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Schuyler Sisters.mp3"; sourceTree = "<group>"; };
+		AF3DC1802A80CD31000D0E66 /* Non-Stop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Non-Stop.mp3"; sourceTree = "<group>"; };
+		AF3DC1812A80CD31000D0E66 /* Alexander Hamilton.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Alexander Hamilton.mp3"; sourceTree = "<group>"; };
+		AF3DC1822A80CD31000D0E66 /* Who Lives, Who Dies, Who Tells Your Story.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Who Lives, Who Dies, Who Tells Your Story.mp3"; sourceTree = "<group>"; };
+		AF3DC1832A80CD31000D0E66 /* Dear Theodosia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dear Theodosia.mp3"; sourceTree = "<group>"; };
+		AF3DC1842A80CD31000D0E66 /* Satisfied.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Satisfied.mp3; sourceTree = "<group>"; };
+		AF3DC1852A80CD31000D0E66 /* The Room Where It Happens.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Room Where It Happens.mp3"; sourceTree = "<group>"; };
+		AF3DC1862A80CD31000D0E66 /* You'll Be Back.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "You'll Be Back.mp3"; sourceTree = "<group>"; };
+		AF3DC1902A80CE80000D0E66 /* Wait for It.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wait for It.mp3"; sourceTree = "<group>"; };
+		AF828CEB2A7FB97D000F66BD /* Hamilton The Musical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hamilton The Musical.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF828CEE2A7FB97D000F66BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF828CF02A7FB97D000F66BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF828CF52A7FB97D000F66BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF828CF72A7FB97E000F66BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF828CFA2A7FB97E000F66BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF828CFC2A7FB97E000F66BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF828D022A7FB9A3000F66BD /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		AF828D042A7FBA5A000F66BD /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		AF828D082A7FC109000F66BD /* LyricsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsViewController.swift; sourceTree = "<group>"; };
+		AF828D0A2A7FC119000F66BD /* MVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVViewController.swift; sourceTree = "<group>"; };
+		AF828D0C2A7FC146000F66BD /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF828CE82A7FB97D000F66BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFB25EF2A80C59B00840779 /* CodableCSV in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF828CE22A7FB97D000F66BD = {
+			isa = PBXGroup;
+			children = (
+				AF828CED2A7FB97D000F66BD /* Hamilton The Musical */,
+				AF828CEC2A7FB97D000F66BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF828CEC2A7FB97D000F66BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF828CEB2A7FB97D000F66BD /* Hamilton The Musical.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF828CED2A7FB97D000F66BD /* Hamilton The Musical */ = {
+			isa = PBXGroup;
+			children = (
+				AF828CEE2A7FB97D000F66BD /* AppDelegate.swift */,
+				AF828CF02A7FB97D000F66BD /* SceneDelegate.swift */,
+				AF828D0F2A7FC15F000F66BD /* View */,
+				AF828D102A7FC169000F66BD /* Model */,
+				AF828D0E2A7FC150000F66BD /* Controllers */,
+				AF828CF72A7FB97E000F66BD /* Assets.xcassets */,
+				AF3DC1812A80CD31000D0E66 /* Alexander Hamilton.mp3 */,
+				AF3DC1902A80CE80000D0E66 /* Wait for It.mp3 */,
+				AF3DC1832A80CD31000D0E66 /* Dear Theodosia.mp3 */,
+				AF3DC17E2A80CD31000D0E66 /* My Shot.mp3 */,
+				AF3DC1802A80CD31000D0E66 /* Non-Stop.mp3 */,
+				AF3DC1842A80CD31000D0E66 /* Satisfied.mp3 */,
+				AF3DC1852A80CD31000D0E66 /* The Room Where It Happens.mp3 */,
+				AF3DC17F2A80CD31000D0E66 /* The Schuyler Sisters.mp3 */,
+				AF3DC1822A80CD31000D0E66 /* Who Lives, Who Dies, Who Tells Your Story.mp3 */,
+				AF3DC1862A80CD31000D0E66 /* You'll Be Back.mp3 */,
+				AF828CFC2A7FB97E000F66BD /* Info.plist */,
+			);
+			path = "Hamilton The Musical";
+			sourceTree = "<group>";
+		};
+		AF828D0E2A7FC150000F66BD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF828D022A7FB9A3000F66BD /* HomeTableViewController.swift */,
+				AF828D042A7FBA5A000F66BD /* SongTableViewCell.swift */,
+				AF828D082A7FC109000F66BD /* LyricsViewController.swift */,
+				AF828D0A2A7FC119000F66BD /* MVViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AF828D0F2A7FC15F000F66BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF828CF92A7FB97E000F66BD /* LaunchScreen.storyboard */,
+				AF828CF42A7FB97D000F66BD /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF828D102A7FC169000F66BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF828D0C2A7FC146000F66BD /* Song.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF828CEA2A7FB97D000F66BD /* Hamilton The Musical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF828CFF2A7FB97E000F66BD /* Build configuration list for PBXNativeTarget "Hamilton The Musical" */;
+			buildPhases = (
+				AF828CE72A7FB97D000F66BD /* Sources */,
+				AF828CE82A7FB97D000F66BD /* Frameworks */,
+				AF828CE92A7FB97D000F66BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hamilton The Musical";
+			packageProductDependencies = (
+				AFFB25EE2A80C59B00840779 /* CodableCSV */,
+			);
+			productName = "Hamilton The Musical";
+			productReference = AF828CEB2A7FB97D000F66BD /* Hamilton The Musical.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF828CE32A7FB97D000F66BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AF828CEA2A7FB97D000F66BD = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AF828CE62A7FB97D000F66BD /* Build configuration list for PBXProject "Hamilton The Musical" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF828CE22A7FB97D000F66BD;
+			packageReferences = (
+				AFFB25ED2A80C59B00840779 /* XCRemoteSwiftPackageReference "CodableCSV" */,
+			);
+			productRefGroup = AF828CEC2A7FB97D000F66BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF828CEA2A7FB97D000F66BD /* Hamilton The Musical */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF828CE92A7FB97D000F66BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF828CFB2A7FB97E000F66BD /* LaunchScreen.storyboard in Resources */,
+				AF3DC1912A80CE80000D0E66 /* Wait for It.mp3 in Resources */,
+				AF3DC1882A80CD31000D0E66 /* The Schuyler Sisters.mp3 in Resources */,
+				AF3DC18C2A80CD31000D0E66 /* Dear Theodosia.mp3 in Resources */,
+				AF3DC1872A80CD31000D0E66 /* My Shot.mp3 in Resources */,
+				AF3DC18F2A80CD31000D0E66 /* You'll Be Back.mp3 in Resources */,
+				AF3DC18E2A80CD31000D0E66 /* The Room Where It Happens.mp3 in Resources */,
+				AF828CF82A7FB97E000F66BD /* Assets.xcassets in Resources */,
+				AF3DC18B2A80CD31000D0E66 /* Who Lives, Who Dies, Who Tells Your Story.mp3 in Resources */,
+				AF3DC18A2A80CD31000D0E66 /* Alexander Hamilton.mp3 in Resources */,
+				AF3DC1892A80CD31000D0E66 /* Non-Stop.mp3 in Resources */,
+				AF828CF62A7FB97D000F66BD /* Main.storyboard in Resources */,
+				AF3DC18D2A80CD31000D0E66 /* Satisfied.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF828CE72A7FB97D000F66BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF828D092A7FC109000F66BD /* LyricsViewController.swift in Sources */,
+				AF828D0B2A7FC119000F66BD /* MVViewController.swift in Sources */,
+				AF828D032A7FB9A3000F66BD /* HomeTableViewController.swift in Sources */,
+				AF828D0D2A7FC146000F66BD /* Song.swift in Sources */,
+				AF828D052A7FBA5A000F66BD /* SongTableViewCell.swift in Sources */,
+				AF828CEF2A7FB97D000F66BD /* AppDelegate.swift in Sources */,
+				AF828CF12A7FB97D000F66BD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF828CF42A7FB97D000F66BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF828CF52A7FB97D000F66BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF828CF92A7FB97E000F66BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF828CFA2A7FB97E000F66BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF828CFD2A7FB97E000F66BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF828CFE2A7FB97E000F66BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF828D002A7FB97E000F66BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WM9U7Y583;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hamilton The Musical/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pei.Hamilton-The-Musical";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF828D012A7FB97E000F66BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WM9U7Y583;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hamilton The Musical/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pei.Hamilton-The-Musical";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF828CE62A7FB97D000F66BD /* Build configuration list for PBXProject "Hamilton The Musical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF828CFD2A7FB97E000F66BD /* Debug */,
+				AF828CFE2A7FB97E000F66BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF828CFF2A7FB97E000F66BD /* Build configuration list for PBXNativeTarget "Hamilton The Musical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF828D002A7FB97E000F66BD /* Debug */,
+				AF828D012A7FB97E000F66BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AFFB25ED2A80C59B00840779 /* XCRemoteSwiftPackageReference "CodableCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dehesa/CodableCSV";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AFFB25EE2A80C59B00840779 /* CodableCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFFB25ED2A80C59B00840779 /* XCRemoteSwiftPackageReference "CodableCSV" */;
+			productName = CodableCSV;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AF828CE32A7FB97D000F66BD /* Project object */;
+}
