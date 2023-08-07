@@ -19,6 +19,7 @@ class MVViewController: UIViewController {
         // Do any additional setup after loading the view.
         let url = URL(string: link)!
         webView.load(URLRequest(url:url))
+        
     }
     
 
