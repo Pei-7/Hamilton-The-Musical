@@ -16,9 +16,7 @@ class HomeTableViewController: UITableViewController {
     var songs = Song.data
     var songLink: String!
     var songLyrics: String!
-    
-    var playingStatus = false
-    
+    var songPlaying: String!
     var timer: Timer!
     
     override func viewDidLoad() {
@@ -51,16 +49,16 @@ class HomeTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "\(SongTableViewCell.self)", for: indexPath) as! SongTableViewCell
         let song = songs[indexPath.row]
         
+        if cell.statusButton.titleLabel?.text != "| |" || songPlaying != song.songName {
+            cell.statusButton.setTitle(String(indexPath.row + 1), for: .normal)
+        }
         
-        cell.statusButton.setTitle(String(indexPath.row + 1), for: .normal)
         cell.songNameLabel.text = song.songName
         cell.singerLabel.text = song.singer
         cell.link = song.mvLink
         cell.statusButton.tag = indexPath.row
         cell.mvButton.tag = indexPath.row
         cell.lyricsButton.tag = indexPath.row
-        
-        cell.songNameLabel.lineBreakMode = .byClipping
 
         return cell
     }
@@ -68,7 +66,9 @@ class HomeTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let song = songs[indexPath.row].songName
+        songPlaying = song
         print(indexPath.row,song)
+        
         let url = Bundle.main.url(forResource: song, withExtension: "mp3")
         if let url {
             let playerItem = AVPlayerItem(url: url)
@@ -78,9 +78,9 @@ class HomeTableViewController: UITableViewController {
             
         if let cell = tableView.cellForRow(at: indexPath) as? SongTableViewCell, let songLabel = cell.songNameLabel {
 
-            
             if let songLabelText = songLabel.text {
                 if songLabelText.count > 30 {
+                        cell.songNameLabel.lineBreakMode = .byClipping
                         var stringArray = Array(songLabelText)
                         let spaceArray = Array(repeating: " ", count: 20)
                         let spaceString = spaceArray.joined()
@@ -105,16 +105,18 @@ class HomeTableViewController: UITableViewController {
     
     fileprivate func resetCell(_ index: Int) {
         player.pause()
-        if timer != nil {
-            timer.invalidate()
-            print("2",timer.isValid)
-        }
         
         let indexPath = IndexPath(row: index, section: 0)
         if let cell = tableView.cellForRow(at: indexPath) as? SongTableViewCell {
             cell.statusButton.setTitle(String(index + 1), for: .normal)
             cell.statusButton.setTitleColor(.systemGray, for: .normal)
             cell.songNameLabel.text = songs[index].songName
+            
+            if timer != nil {
+                timer.invalidate()
+                cell.songNameLabel.lineBreakMode = .byTruncatingTail
+            }
+
         }
     }
     
@@ -151,7 +153,6 @@ class HomeTableViewController: UITableViewController {
     @IBAction func pause(_ sender: UIButton) {
         let index = sender.tag
         resetCell(index)
-
     }
     
     
